@@ -1,0 +1,56 @@
+.title{ 
+    font-size: 1.5em;
+    font-weight: 600;           
+    span{        
+        font-size: 2.5em;        
+        font-weight: 400;   
+    }
+}
+.subtitle{    
+    font-size: 1.2em;    
+    color: $plomo;
+    span{
+        font-size: 2em;
+    }
+}
+.sub-subtitle{       
+    color: $plomo;
+    font-size: 1em;
+    span{        
+        font-size: 1.5em;
+        font-size: 300;
+    }
+}
+.button{
+    padding: .5em;
+    border: 1px solid $plomo;     
+}
+.img{
+    width: 15%;
+    display: block;
+    margin: 2em auto 0;
+    border-radius: 50%;
+    border: 1px solid $negro;
+}
+.img-mediano{
+    width: 300px;
+    height: 200px;
+}
+
+@media screen and (min-width:769px) {
+    .caja-tabla{
+        display: flex;
+    }
+}
+
+//Patrón OOCSS
+.title-oocss{
+    margin: 1em;
+    font-family: $roboto--condensed;
+    text-transform: uppercase;    
+    font-weight: bold;
+    span{
+        color: $negro;
+        display: block;
+    }
+}

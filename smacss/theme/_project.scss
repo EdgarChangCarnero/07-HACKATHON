@@ -1,0 +1,13 @@
+.project{
+    text-align: center;
+    background-color: $azul;
+    color: $blanco;
+}
+@media screen and (min-width:769px) {
+    .caja-project{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

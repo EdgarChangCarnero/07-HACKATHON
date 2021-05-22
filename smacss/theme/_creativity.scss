@@ -1,0 +1,21 @@
+
+.creativity{
+    text-align: center;
+    &__description{
+        padding: 1em;
+    }
+}
+.creativity-img{
+    display: flex;
+    justify-content: center;
+    &__img{
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .creativity-img{
+        display: flex;
+        align-items: center;
+    }
+}

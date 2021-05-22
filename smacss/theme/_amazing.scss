@@ -1,0 +1,24 @@
+.amazing{
+    text-align: center;    
+    &__hr{
+        width: 20%;
+    }
+    &__description{
+        padding: 0 1em;
+    }
+    &__img{
+        border-radius: 50%;
+        margin: 2em 0 1em;
+    }
+    &__button{
+        display: block;
+        padding-top: 2em;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+}
+@media screen and (min-width:769px) {
+    .caja__amazing--flex{       
+        flex-direction: row-reverse;
+    }
+}

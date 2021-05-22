@@ -1,0 +1,75 @@
+// header{
+//     @include mq (360px);
+// }
+
+.logo{    
+    text-align: center;
+    font-family: $roboto--condensed;
+    letter-spacing: .3em;
+}
+.mostrar-menu{
+    text-align: center;
+    background-color: darken($plomo, 10%);
+    padding: 1em 0;
+    font-weight: bold;
+    letter-spacing: .2em;
+}
+.menu{
+    &__item{
+        padding: .5em 1em;
+        background-color: $plomo;
+        border-bottom: 1px solid rgba($blanco, 40%);    
+    }
+}
+.copy{
+    text-align: center; 
+    &__description{
+        padding-bottom: .7em;
+    }
+}
+@media screen and (min-width:769px) {
+    .grupo-header{
+        display: flex;
+        position: absolute;
+        top: 5%;
+        z-index:20;        
+    }    
+    .caja-header{
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        align-items: center;
+    }
+    .caja-header:nth-child(2){
+        width: 70%;
+    }
+    .mostrar-menu{
+        display: none;
+    }
+    .menu{
+        background-color: $blanco;
+        border-right: 1px solid rgba($blanco, 40%);
+        display: flex;      
+        width: 100%;
+        background-color:transparent; 
+        &__item{
+            border-right: 1px solid rgba($blanco, 40%);             
+            background-color:transparent;             
+        }
+    }
+    .banner{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        position: relative;
+        z-index:10;
+    }    
+    .copy{
+        position: absolute;
+       // transform: translate(100px, -160px);
+        z-index:30;
+        top: 25%;
+        margin-left: 3%;
+    }
+    
+}

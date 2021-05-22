@@ -1,0 +1,9 @@
+@mixin mq ($breakpoint){
+    @media screen and (min-width:$breakpoint) {
+        //background-color: yellow;
+        h1{
+           // color: red;
+        }
+       // @content;
+    }
+}

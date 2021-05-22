@@ -1,0 +1,25 @@
+.people{       
+    text-align: center;
+    padding-bottom: 0%;
+    &__h6{
+        margin: 0% 0 3em;
+    }
+    &__description {
+        padding: 1em;
+        margin-bottom: 0%;
+        padding-top: .5em;
+    }
+    &__name{
+        margin: .5em auto;
+    }
+    &__say{
+        margin: 0% auto 3em;
+    }
+}
+.img{
+    margin-top: 0%;
+}
+.caja-shadow{
+    box-shadow: 0 0 5px 0px $negro;
+    margin: 0 .5em;
+}

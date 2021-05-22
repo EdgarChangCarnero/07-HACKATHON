@@ -1,0 +1,33 @@
+.footer{
+    background-color: $plomoclaro;
+    margin-top: 0%;
+    padding: 1em;
+    text-align: center;
+    &__recent__title{
+        text-align: justify;
+    }
+    &__img{
+        width: 100px;
+        height: 50px;
+    }
+    &__item{
+        padding: .5em;
+    } 
+    &__recent__title{
+        padding: 0 3em;
+        text-align: center;
+    }
+    &__title, &__name{
+        text-transform: uppercase;
+    }
+}
+@media screen and (min-width:769px) {
+    .caja-footer{
+        width: 33%;
+    }
+    .caja__footer--flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
